@@ -1,0 +1,23 @@
+body {
+  color: #212121;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address:hover,
+.mail:hover,
+.tel:hover,
+.address:focus,
+.mail:focus,
+.tel:focus {
+  color: #2196f3;
+}
