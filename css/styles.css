@@ -1,6 +1,19 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --button-color: #f5f4fa;
+}
+
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   font-family: Roboto, sans-serif;
 }
 /* лого  */
@@ -12,10 +25,10 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 ul {
   list-style: none;
@@ -30,15 +43,12 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
+
 /* contacts header */
 .header .mail,
 .header .tel {
@@ -48,11 +58,26 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
-  /* buttons */
-
-  /* примеры  projects */
+  color: var(--text-color);
 }
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* buttons */
+
+/* примеры  projects */
+
+.projects .title {
+  ont-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
 .footer {
   font-size: 14px;
   line-height: 1.7;
@@ -64,9 +89,6 @@ ul {
   font-family: inherit;
 }
 
-ul {
-  list-style: none;
-}
 /*цвет основного текста #212121*/
 /* цвет заголовков  #212121 */
 /*цвет ховер фокус: #2196F3*/
