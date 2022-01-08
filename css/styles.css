@@ -1,23 +1,76 @@
 body {
-  color: #212121;
-  font-style: normal;
+  color: #757575;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
+}
+/* лого  */
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.accent {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+/* site-nav */
+
+.site-nav .link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav .current {
+  color: #2196f3;
 }
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
+/* contacts header */
+.header .mail,
+.header .tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  /* buttons */
+
+  /* примеры  projects */
+}
 .footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  background-color: #2f303a;
 }
-.address:hover,
-.mail:hover,
-.tel:hover,
-.address:focus,
-.mail:focus,
-.tel:focus {
-  color: #2196f3;
+.address {
+  color: inherit;
+  font-family: inherit;
 }
+
+ul {
+  list-style: none;
+}
+/*цвет основного текста #212121*/
+/* цвет заголовков  #212121 */
+/*цвет ховер фокус: #2196F3*/
+
+/*footer info and tel color  #FFFFFF99*/
+/* background: #FFFFFF */
+/* footer background:  #2F303A*/
